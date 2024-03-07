@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  /* background-image: url(image/quoteimg.png); */
+  background-repeat: no-repeat;
+}
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  /* background-color: #fff; */
+  border-radius: 5px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  margin-top: 0px;
+  padding-top: 10px;
+  display: block;
+}
+
+/* Logo styles */
+/*  */
+
+/* Quote box styles */
+.quote-box {
+  margin-bottom: 20px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  margin-right: 60px;
+}
+
+#quote {
+  font-size: 60px;
+  font-style: italic;
+  /* margin-bottom: 60px; */
+}
+#header {
+  font-size: 60px;
+  font-family: cursive;
+  text-align: center;
+}
+
+#author {
+  font-size: 24px;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Link styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+ul {
+  list-style: none;
+}
